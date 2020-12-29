@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message Customer {
+  string username = 1;
+  repeated string email_addresses = 2; // array of strings
+}
+
+
+
